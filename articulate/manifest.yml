@@ -1,7 +1,7 @@
 applications:
-- name: ((articulate_app_name))
+- name: pcf101-demo-articulate
   path: target/articulate-1.0.0.jar
-  instances: ((articulate_app_instances))
+  instances: 2
   memory: 800M
   routes:
-  - route: ((articulate_app_route))
+  - route: pcf101-demo-articulate.local.pcfdev.io
